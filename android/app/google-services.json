@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "582817782491",
+    "project_id": "fb-login-e415f",
+    "storage_bucket": "fb-login-e415f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:582817782491:android:786f53c2392d2b2b538afe",
+        "android_client_info": {
+          "package_name": "com.example.gmail_fb_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "582817782491-91ok0fqja1et3nepq8omb3fja77djov5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gmail_fb_login",
+            "certificate_hash": "adacbedf98415dfd262f9d6db4746a81cafae5fe"
+          }
+        },
+        {
+          "client_id": "582817782491-mnf4eqm788mrsr6al9of66ajemeuat0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChAFS57u1dVhMFlG6CpSJGzBJ-X05pzrk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "582817782491-mnf4eqm788mrsr6al9of66ajemeuat0m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "582817782491-9o83fa92jb2hc1vod92nj0su82ca5iki.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.gmailfblogin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
