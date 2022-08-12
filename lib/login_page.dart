@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gmail_fb_login/facebook_login.dart';
 import 'package:gmail_fb_login/google_signin.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
@@ -36,7 +37,13 @@ class _LoginPageState extends State<LoginPage> {
             ),
             SizedBox(height: 15),
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) {
+                    return FacebookLoginDemo();
+                  },
+                ));
+              },
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
